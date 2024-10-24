@@ -1,0 +1,19 @@
+{
+    "name": "Elixir",
+    "id": "elixir",
+    "version": "1.0.0",
+    "description": "A feature to install and use the Elixir ecosystem",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select an Elixir version to install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
